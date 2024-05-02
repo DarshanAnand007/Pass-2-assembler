@@ -19,12 +19,12 @@ Compiler Design and System Software (CDSS) Mini Project:
 
 5. **Design**:
    5.1 **Algorithm**:
-      ![Algorithm Pass 1](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/f9dd10cd-a86a-4037-9a87-162b4dca6dd3)
-      ![Algorithm Pass 2](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/dae36980-316d-4811-8b85-da8c20be6bba)
-      ![Algorithm Pass 3](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/0a24f427-686d-4501-b169-804f4493c060)
-      ![Algorithm Pass 4](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/def35e22-d4ab-4f7a-a737-0d686c6dccc3)
+      ![Algorithm Pass 1](https://via.placeholder.com/500x300)
+      ![Algorithm Pass 2](https://via.placeholder.com/500x300)
+      ![Algorithm Pass 3](https://via.placeholder.com/500x300)
+      ![Algorithm Pass 4](https://via.placeholder.com/500x300)
    5.2 **Flow Chart**:
-      ![Flow Chart](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/b7f2fdec-93ab-4654-9e23-dfec94e8ceab)
+      ![Flow Chart](https://via.placeholder.com/600x400)
 
 6. **Description of Modules**:
    The two main phases are:
@@ -38,7 +38,7 @@ Compiler Design and System Software (CDSS) Mini Project:
      - Retrieve memory operand address from the symbol table.
 
 7. **Output Screenshots**:
-   ![Output Screenshots](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/9a2c30d4-95fd-4af7-baf1-2d345b0439fa)
+   ![Output Screenshots](https://via.placeholder.com/800x600)
 
 8. **Conclusion**:
    - This project generates object code from assembly language input using a two-pass approach.
