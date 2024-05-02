@@ -2,10 +2,10 @@
 Compiler Design and System Software (CDSS) Mini Project:
 
 1. **Abstract**:
-   A two-pass assembler is a translator that converts an assembler program into conventional machine language. Operating in two passes over the source file, it first identifies label definitions and stores them in a symbol table, along with calculating memory addresses for each instruction. In the second pass, armed with a complete symbol table, it performs the actual assembly by translating operations into machine codes. This approach facilitates referencing labels and variables before their definition, enhancing code readability and writability.
+   A two-pass assembler is a translator that converts an assembler program into conventional machine language. It operates in two passes over the source file, first to identify label definitions and calculate memory addresses, and then to generate machine code. This approach facilitates referencing labels and variables before their definition, enhancing code readability and writability.
 
 2. **Introduction**:
-   A two-pass assembler reads the source code twice, first to create a symbol table and then to generate the object code. By resolving forward references and generating accurate object code, it ensures the integrity of the translation process. This assembler processes the program line by line, generating machine code for each instruction sequentially. While straightforward for instructions referencing registers, it encounters challenges with instructions like "JMP LATER" where the target is not immediately available.
+   A two-pass assembler reads the source code twice, first to create a symbol table and then to generate the object code. This ensures accurate object code generation by resolving forward references. While straightforward for instructions referencing registers, it faces challenges with instructions like "JMP LATER" where the target is not immediately available.
 
 3. **Problem Statement**:
    The task involves generating machine code using a two-pass assembler.
@@ -19,12 +19,12 @@ Compiler Design and System Software (CDSS) Mini Project:
 
 5. **Design**:
    5.1 **Algorithm**:
-      ![Algorithm Pass 1](insert_path_to_algorithm_image1_here)
-      ![Algorithm Pass 2](insert_path_to_algorithm_image2_here)
-      ![Algorithm Pass 3](insert_path_to_algorithm_image3_here)
-      ![Algorithm Pass 4](insert_path_to_algorithm_image4_here)
+      ![Algorithm Pass 1](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/f9dd10cd-a86a-4037-9a87-162b4dca6dd3)
+      ![Algorithm Pass 2](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/dae36980-316d-4811-8b85-da8c20be6bba)
+      ![Algorithm Pass 3](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/0a24f427-686d-4501-b169-804f4493c060)
+      ![Algorithm Pass 4](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/def35e22-d4ab-4f7a-a737-0d686c6dccc3)
    5.2 **Flow Chart**:
-      ![Flow Chart](insert_path_to_flow_chart_image_here)
+      ![Flow Chart](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/b7f2fdec-93ab-4654-9e23-dfec94e8ceab)
 
 6. **Description of Modules**:
    The two main phases are:
@@ -38,7 +38,7 @@ Compiler Design and System Software (CDSS) Mini Project:
      - Retrieve memory operand address from the symbol table.
 
 7. **Output Screenshots**:
-   ![Output Screenshots](insert_path_to_output_screenshots_here)
+   ![Output Screenshots](https://github.com/keerthanamg/2-PASS-ASSEMBLER/assets/88154987/9a2c30d4-95fd-4af7-baf1-2d345b0439fa)
 
 8. **Conclusion**:
    - This project generates object code from assembly language input using a two-pass approach.
